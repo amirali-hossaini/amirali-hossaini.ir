@@ -1,0 +1,761 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+  <title>Amirali Hossaini</title>
+
+  <link rel="icon" href="images/icons/favicon.svg" type="image/svg+xml">
+
+  <link rel="stylesheet" href="styles/style.css" />
+
+  <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+</head>
+
+<body class="manrope-regular bg-[#11151c] text-white">
+
+  <div
+    class="fixed top-3 right-4 left-4 z-50 mx-auto flex max-w-[600px] items-center justify-between rounded-[14px] border border-white/10 bg-white/5 px-5 py-4 text-white backdrop-blur-2xl shadow-2xl">
+
+    <a class="nav-link me-1" href="#home">Home</a>
+    <a class="nav-link me-1" href="#about">About</a>
+    <a class="nav-link me-1" href="#portfolio">Portfolio</a>
+    <a class="nav-link me-1 hidden md:block" href="#career">Career & Education</a>
+    <a class="nav-link me-1" href="#skills">Skills</a>
+
+  </div>
+
+  <div class="text-white h-screen flex items-center justify-center" id="home">
+    <div
+      class="w-[1200px] mx-auto items-center justify-between grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-4 px-4 xl:px-0">
+
+      <div class="flex items-center md:items-start justify-center flex-col order-2">
+
+        <h1 class="text-5xl md:text-6xl lg:text-7xl text-white dancing-script-bold">
+          Amirali Hossaini
+        </h1>
+
+        <p class="mt-3 text-md text-gray-400">
+          Backend Developer specializing in
+          <span class="text-indigo-500 manrope-medium">
+            Laravel
+          </span>
+          &
+          <span class="text-indigo-500 manrope-medium">
+            PHP
+          </span>
+        </p>
+
+      </div>
+
+      <div class="flex items-center mb-4 md:mb-0 justify-center md:order-3">
+        <img src="images/programming.svg" class="w-full h-auto" />
+      </div>
+
+    </div>
+  </div>
+
+  <div class="bg-[#171b22]" id="about">
+    <div
+      class="max-w-[1200px] mx-auto items-center justify-center grid grid-cols-1 md:grid-cols-2 py-16 md:py-36 px-4 xl:px-0">
+
+      <div class="flex items-center justify-center mx-4 mb-8 md:mb-0 lg:mx-0">
+        <img src="images/about.svg" alt="About Me" class="w-full max-w-[450px] h-auto" />
+      </div>
+
+      <div class="text-l">
+        <p class="text-5xl dancing-script-bold text-center md:text-start">
+          About
+        </p>
+
+        <p class="mt-4 leading-7 text-gray-400">
+          I’m Amirali Hossaini, a
+          <span class="text-indigo-500 manrope-medium">
+            backend developer
+          </span>
+          specializing in
+          <span class="text-indigo-500 manrope-medium">
+            Laravel
+          </span>
+          and
+          <span class="text-indigo-500 manrope-medium">
+            PHP
+          </span>.
+          I build
+          <span class="text-indigo-500 manrope-medium">
+            RESTful APIs
+          </span>,
+          backend services, and modular applications with a focus on
+          <span class="text-indigo-500 manrope-medium">
+            clean architecture
+          </span>,
+          maintainability, and reliable software.
+        </p>
+
+        <p class="mt-4 leading-7 text-gray-400">
+          My primary focus is backend development, but I’m also interested in
+          <span class="text-indigo-500 manrope-medium">
+            Linux
+          </span>,
+          <span class="text-indigo-500 manrope-medium">
+            IoT
+          </span>,
+          and
+          <span class="text-indigo-500 manrope-medium">
+            software architecture
+          </span>.
+          I enjoy exploring how systems work under the hood, solving technical problems,
+          and continuously improving my approach to software development.
+        </p>
+
+      </div>
+
+    </div>
+  </div>
+
+  <div class="flex items-center justify-center px-4 xl:px-0" id="portfolio">
+    <div class="max-w-[1200px] mx-auto py-16 md:py-28">
+      <div>
+
+        <h2 class="text-5xl dancing-script-bold text-center md:text-start">
+          Portfolio
+        </h2>
+
+        <ul
+          class="relative mt-12 space-y-6 pl-6 before:absolute before:bottom-0 before:left-0 before:top-0 before:block before:w-1 before:rounded-full before:bg-indigo-300 before:content-['']">
+
+          <li
+            class="relative before:absolute before:-left-[1.875rem] before:top-[5px] before:block before:size-4 before:rounded-full before:border-2 before:border-indigo-400 before:bg-indigo-400 before:content-['']">
+            <h5 class="manrope-bold text-gray-500">
+              Professional Experience
+            </h5>
+          </li>
+
+          <li
+            class="relative before:absolute before:-left-[1.875rem] before:top-[5px] before:block before:size-4 before:rounded-full before:border-2 before:border-indigo-200 before:bg-indigo-500 before:content-['']">
+
+            <a target="_blank" href="https://vasl.app" rel="nofollow"
+              class="manrope-bold text-white hover:text-indigo-400 transition-colors duration-300">
+              Vasl Platform
+            </a>
+
+            <div class="mb-2 mt-1 text-sm text-gray-300">
+              Cross-border marketplace platform
+            </div>
+
+            <p class="text-sm/relaxed text-gray-500">
+              Contributed to the backend development of a multilingual marketplace
+              platform designed for cross-border trading between Iranian and
+              Arabic-speaking users. Worked on scalable APIs, localized content
+              handling, and marketplace-related backend services.
+            </p>
+
+            <div class="mt-3 flex flex-wrap gap-2 text-xs">
+              <span
+                class="rounded bg-indigo-500/10 px-2 py-1 text-indigo-300 transition-all duration-300 hover:bg-indigo-500/8 hover:text-indigo-500">Laravel</span>
+              <span
+                class="rounded bg-indigo-500/10 px-2 py-1 text-indigo-300 transition-all duration-300 hover:bg-indigo-500/8 hover:text-indigo-500">PHP</span>
+              <span
+                class="rounded bg-indigo-500/10 px-2 py-1 text-indigo-300 transition-all duration-300 hover:bg-indigo-500/8 hover:text-indigo-500">Docker</span>
+              <span
+                class="rounded bg-indigo-500/10 px-2 py-1 text-indigo-300 transition-all duration-300 hover:bg-indigo-500/8 hover:text-indigo-500">PHPUnit</span>
+              <span
+                class="rounded bg-indigo-500/10 px-2 py-1 text-indigo-300 transition-all duration-300 hover:bg-indigo-500/8 hover:text-indigo-500">PostgreSQL</span>
+              <span
+                class="rounded bg-indigo-500/10 px-2 py-1 text-indigo-300 transition-all duration-300 hover:bg-indigo-500/8 hover:text-indigo-500">REST
+                API</span>
+            </div>
+
+          </li>
+
+          <li
+            class="relative before:absolute before:-left-[1.875rem] before:top-[5px] before:block before:size-4 before:rounded-full before:border-2 before:border-indigo-200 before:bg-indigo-500 before:content-['']">
+
+            <a target="_blank" href="https://connnect.ir" rel="nofollow"
+              class="manrope-bold text-white hover:text-indigo-400 transition-colors duration-300">
+              Connnect CRM
+            </a>
+
+            <div class="mb-2 mt-1 text-sm text-gray-300">
+              Customer relationship management platform
+            </div>
+
+            <p class="text-sm/relaxed text-gray-500">
+              Worked on backend development for a CRM platform focused on customer
+              management, sales tracking, and service automation. Contributed to
+              API development, database structure, and backend system maintenance.
+            </p>
+
+            <div class="mt-3 flex flex-wrap gap-2 text-xs">
+              <span
+                class="rounded bg-indigo-500/10 px-2 py-1 text-indigo-300 transition-all duration-300 hover:bg-indigo-500/8 hover:text-indigo-500">Laravel</span>
+              <span
+                class="rounded bg-indigo-500/10 px-2 py-1 text-indigo-300 transition-all duration-300 hover:bg-indigo-500/8 hover:text-indigo-500">PHP</span>
+              <span
+                class="rounded bg-indigo-500/10 px-2 py-1 text-indigo-300 transition-all duration-300 hover:bg-indigo-500/8 hover:text-indigo-500">Docker</span>
+              <span
+                class="rounded bg-indigo-500/10 px-2 py-1 text-indigo-300 transition-all duration-300 hover:bg-indigo-500/8 hover:text-indigo-500">PHPUnit</span>
+              <span
+                class="rounded bg-indigo-500/10 px-2 py-1 text-indigo-300 transition-all duration-300 hover:bg-indigo-500/8 hover:text-indigo-500">MySQL</span>
+              <span
+                class="rounded bg-indigo-500/10 px-2 py-1 text-indigo-300 transition-all duration-300 hover:bg-indigo-500/8 hover:text-indigo-500">REST
+                API</span>
+            </div>
+
+          </li>
+
+          <li
+            class="relative before:absolute before:-left-[1.875rem] before:top-[5px] before:block before:size-4 before:rounded-full before:border-2 before:border-indigo-200 before:bg-indigo-500 before:content-['']">
+
+            <a target="_blank" href="https://cloud2.ir" rel="nofollow"
+              class="manrope-bold text-white hover:text-indigo-400 transition-colors duration-300">
+              Cloud2
+            </a>
+
+            <div class="mb-2 mt-1 text-sm text-gray-300">
+              Hosting and server solutions platform
+            </div>
+
+            <p class="text-sm/relaxed text-gray-500">
+              Contributed to backend development for a hosting platform providing
+              virtual and dedicated server solutions. Worked on backend services,
+              platform functionality, and system-related features.
+            </p>
+
+            <div class="mt-3 flex flex-wrap gap-2 text-xs">
+              <span
+                class="rounded bg-indigo-500/10 px-2 py-1 text-indigo-300 transition-all duration-300 hover:bg-indigo-500/8 hover:text-indigo-500">Laravel</span>
+              <span
+                class="rounded bg-indigo-500/10 px-2 py-1 text-indigo-300 transition-all duration-300 hover:bg-indigo-500/8 hover:text-indigo-500">PHP</span>
+              <span
+                class="rounded bg-indigo-500/10 px-2 py-1 text-indigo-300 transition-all duration-300 hover:bg-indigo-500/8 hover:text-indigo-500">Linux</span>
+              <span
+                class="rounded bg-indigo-500/10 px-2 py-1 text-indigo-300 transition-all duration-300 hover:bg-indigo-500/8 hover:text-indigo-500">MySQL</span>
+            </div>
+          </li>
+
+          <li
+            class="relative before:absolute before:-left-[1.875rem] before:top-[5px] before:block before:size-4 before:rounded-full before:border-2 before:border-indigo-200 before:bg-indigo-500 before:content-['']">
+
+            <a target="_blank" href="https://pay3.ir" rel="nofollow"
+              class="manrope-bold text-white hover:text-indigo-400 transition-colors duration-300">
+              Pay3
+            </a>
+
+            <div class="mb-2 mt-1 text-sm text-gray-300">
+              Bank transfer payment gateway
+            </div>
+
+            <p class="text-sm/relaxed text-gray-500">
+              Worked on backend systems for a payment gateway platform focused on
+              bank transfer verification and transaction processing. Contributed to
+              payment-related logic and backend service development.
+            </p>
+
+            <div class="mt-3 flex flex-wrap gap-2 text-xs">
+              <span
+                class="rounded bg-indigo-500/10 px-2 py-1 text-indigo-300 transition-all duration-300 hover:bg-indigo-500/8 hover:text-indigo-500">Laravel</span>
+              <span
+                class="rounded bg-indigo-500/10 px-2 py-1 text-indigo-300 transition-all duration-300 hover:bg-indigo-500/8 hover:text-indigo-500">PHP</span>
+              <span
+                class="rounded bg-indigo-500/10 px-2 py-1 text-indigo-300 transition-all duration-300 hover:bg-indigo-500/8 hover:text-indigo-500">MySQL</span>
+            </div>
+
+          </li>
+
+          <li
+            class="relative before:absolute before:-left-[1.875rem] before:top-[5px] before:block before:size-4 before:rounded-full before:border-2 before:border-indigo-400 before:bg-indigo-400 before:content-['']">
+
+            <h5 class="manrope-bold text-gray-500">
+              Personal & Open-Source Projects
+            </h5>
+
+          </li>
+
+          <li
+            class="relative before:absolute before:-left-[1.875rem] before:top-[5px] before:block before:size-4 before:rounded-full before:border-2 before:border-gray-200 before:bg-indigo-500 before:content-['']">
+
+            <a target="_blank" href="https://github.com/amirali-hossaini/short-link-service" rel="nofollow"
+              class="manrope-bold text-white hover:text-indigo-400 transition-colors duration-300">
+              Short Link Service
+            </a>
+
+            <div class="mb-2 mt-1 text-sm text-gray-300">
+              Laravel-based URL shortening REST API
+            </div>
+
+            <p class="text-sm/relaxed text-gray-500">
+              RESTful URL shortening service built with Laravel and PHP, featuring
+              authentication, URL management, custom aliases, link expiration, and
+              short URL redirection with a tested repository-based architecture.
+            </p>
+
+            <div class="mt-3 flex flex-wrap gap-2 text-xs">
+              <span
+                class="rounded bg-indigo-500/10 px-2 py-1 text-indigo-300 transition-all duration-300 hover:bg-indigo-500/8 hover:text-indigo-500">Laravel</span>
+              <span
+                class="rounded bg-indigo-500/10 px-2 py-1 text-indigo-300 transition-all duration-300 hover:bg-indigo-500/8 hover:text-indigo-500">PHP</span>
+              <span
+                class="rounded bg-indigo-500/10 px-2 py-1 text-indigo-300 transition-all duration-300 hover:bg-indigo-500/8 hover:text-indigo-500">Docker</span>
+              <span
+                class="rounded bg-indigo-500/10 px-2 py-1 text-indigo-300 transition-all duration-300 hover:bg-indigo-500/8 hover:text-indigo-500">PHPUnit</span>
+              <span
+                class="rounded bg-indigo-500/10 px-2 py-1 text-indigo-300 transition-all duration-300 hover:bg-indigo-500/8 hover:text-indigo-500">MySQL</span>
+              <span
+                class="rounded bg-indigo-500/10 px-2 py-1 text-indigo-300 transition-all duration-300 hover:bg-indigo-500/8 hover:text-indigo-500">REST
+                API</span>
+            </div>
+
+          </li>
+
+          <li
+            class="relative before:absolute before:-left-[1.875rem] before:top-[5px] before:block before:size-4 before:rounded-full before:border-2 before:border-indigo-200 before:bg-indigo-500 before:content-['']">
+
+            <a target="_blank" href="https://github.com/amirali-hossaini/laravel-modular-permissions" rel="nofollow"
+              class="manrope-bold text-white hover:text-indigo-400 transition-colors duration-300">
+              Laravel Modular Permissions API
+            </a>
+
+            <div class="mb-2 mt-1 text-sm text-gray-300">
+              Modular RBAC REST API
+            </div>
+
+            <p class="text-sm/relaxed text-gray-500">
+              Modular RESTful API for role and permission management built with
+              Laravel. Designed with scalable RBAC architecture, secure
+              authentication, and modular access control.
+            </p>
+
+            <div class="mt-3 flex flex-wrap gap-2 text-xs">
+              <span
+                class="rounded bg-indigo-500/10 px-2 py-1 text-indigo-300 transition-all duration-300 hover:bg-indigo-500/8 hover:text-indigo-500">Laravel</span>
+              <span
+                class="rounded bg-indigo-500/10 px-2 py-1 text-indigo-300 transition-all duration-300 hover:bg-indigo-500/8 hover:text-indigo-500">PHP</span>
+              <span
+                class="rounded bg-indigo-500/10 px-2 py-1 text-indigo-300 transition-all duration-300 hover:bg-indigo-500/8 hover:text-indigo-500">Docker</span>
+              <span
+                class="rounded bg-indigo-500/10 px-2 py-1 text-indigo-300 transition-all duration-300 hover:bg-indigo-500/8 hover:text-indigo-500">PHPUnit</span>
+              <span
+                class="rounded bg-indigo-500/10 px-2 py-1 text-indigo-300 transition-all duration-300 hover:bg-indigo-500/8 hover:text-indigo-500">MySQL</span>
+              <span
+                class="rounded bg-indigo-500/10 px-2 py-1 text-indigo-300 transition-all duration-300 hover:bg-indigo-500/8 hover:text-indigo-500">REST
+                API</span>
+            </div>
+
+          </li>
+
+          <li
+            class="relative before:absolute before:-left-[1.875rem] before:top-[5px] before:block before:size-4 before:rounded-full before:border-2 before:border-gray-200 before:bg-indigo-500 before:content-['']">
+
+            <a target="_blank" href="https://github.com/amirali-hossaini/oop-mvc-framework" rel="nofollow"
+              class="manrope-bold text-white hover:text-indigo-400 transition-colors duration-300">
+              MVC Framework
+            </a>
+
+            <div class="mb-2 mt-1 text-sm text-gray-300">
+              OOP-based MVC framework
+            </div>
+
+            <p class="text-sm/relaxed text-gray-500">
+              Custom MVC framework built with OOP principles, featuring separate
+              model, controller, and view layers with a modular architecture for
+              scalable application development.
+            </p>
+
+            <div class="mt-3 flex flex-wrap gap-2 text-xs">
+              <span
+                class="rounded bg-indigo-500/10 px-2 py-1 text-indigo-300 transition-all duration-300 hover:bg-indigo-500/8 hover:text-indigo-500">PHP</span>
+              <span
+                class="rounded bg-indigo-500/10 px-2 py-1 text-indigo-300 transition-all duration-300 hover:bg-indigo-500/8 hover:text-indigo-500">MVC</span>
+              <span
+                class="rounded bg-indigo-500/10 px-2 py-1 text-indigo-300 transition-all duration-300 hover:bg-indigo-500/8 hover:text-indigo-500">OOP</span>
+            </div>
+
+          </li>
+
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <div class="bg-[#171b22]">
+    <div class="max-w-[1200px] mx-auto grid grid-cols-1 md:grid-cols-2 gap-8 py-16 md:py-36 px-4 xl:px-0" id="career">
+      <div>
+
+        <p class="text-5xl dancing-script-bold text-center md:text-start">
+          Education
+        </p>
+
+        <ul
+          class="relative mt-12 space-y-6 pl-6 before:absolute before:bottom-0 before:left-0 before:top-0 before:block before:w-1 before:rounded-full before:bg-indigo-300 before:content-['']">
+
+          <li
+            class="relative before:absolute before:-left-[1.875rem] before:top-6 before:block before:size-4 before:rounded-full before:border-2 before:border-indigo-200 before:bg-indigo-500 before:content-['']">
+
+            <h4 class="text-sm manrope-semi-bold text-gray-500">
+              2024 - 2025
+            </h4>
+
+            <h5 class="mb-2 manrope-bold text-white">
+              Computer Graphics Diploma
+            </h5>
+
+            <div class="mb-2 mt-1 text-sm text-gray-300">
+              <span>
+                Avicenna Technical and Vocational School
+                <span class="text-indigo-500">•</span>
+                Iran
+              </span>
+            </div>
+
+            <p class="text-sm/relaxed text-gray-500">
+              Completed a diploma focused on computer graphics, design fundamentals,
+              and digital tools, providing a creative foundation alongside technical development skills.
+            </p>
+
+          </li>
+
+        </ul>
+
+      </div>
+
+      <div>
+
+        <p class="text-5xl dancing-script-bold text-center md:text-start">
+          Career
+        </p>
+
+        <ul
+          class="relative mt-12 space-y-6 pl-6 before:absolute before:bottom-0 before:left-0 before:top-0 before:block before:w-1 before:rounded-full before:bg-indigo-300 before:content-['']">
+
+          <li
+            class="relative before:absolute before:-left-[1.875rem] before:top-6 before:block before:size-4 before:rounded-full before:border-2 before:border-indigo-200 before:bg-indigo-500 before:content-['']">
+
+            <h4 class="text-sm manrope-semi-bold text-gray-500">
+              Jan 2026 - Present
+            </h4>
+
+            <h5 class="manrope-bold text-white">
+              Backend Developer
+            </h5>
+
+            <div class="mb-2 mt-1 text-sm text-gray-300">
+              <span>
+                Freelance
+                <span class="text-indigo-500">•</span>
+                Iran
+              </span>
+            </div>
+
+            <p class="text-sm/relaxed text-gray-500">
+              Developing backend systems and RESTful APIs using Laravel and PHP.
+              Worked on scalable applications, database optimization, authentication systems,
+              and modular backend architectures across multiple freelance projects.
+            </p>
+
+          </li>
+
+          <li
+            class="relative before:absolute before:-left-[1.875rem] before:top-6 before:block before:size-4 before:rounded-full before:border-2 before:border-indigo-200 before:bg-indigo-500 before:content-['']">
+
+            <h4 class="text-sm manrope-semi-bold text-gray-500">
+              May 2025 - Jan 2026
+            </h4>
+
+            <h5 class="manrope-bold text-white">
+              Backend Developer at
+              <a target="_blank" href="https://connnect.ir" rel="nofollow"
+                class="hover:text-indigo-400 transition-colors duration-300">
+                Connnect
+              </a>
+            </h5>
+
+            <div class="mb-2 mt-1 text-sm text-gray-300">
+              <span>
+                Part-time
+                <span class="text-indigo-500">•</span>
+                Remote
+                <span class="text-indigo-500">•</span>
+                Iran
+              </span>
+            </div>
+
+            <p class="text-sm/relaxed text-gray-500">
+              Contributed to backend development for Connnect's ORM platform,
+              focusing on Laravel services, backend architecture, and data management systems.
+            </p>
+
+          </li>
+
+          <li
+            class="relative before:absolute before:-left-[1.875rem] before:top-6 before:block before:size-4 before:rounded-full before:border-2 before:border-indigo-200 before:bg-indigo-500 before:content-['']">
+
+            <h4 class="text-sm manrope-semi-bold text-gray-500">
+              Jul 2024 - May 2025
+            </h4>
+
+            <h5 class="manrope-bold text-white">
+              Backend Developer at
+              <a target="_blank" href="https://zoip.ir" rel="nofollow"
+                class="hover:text-indigo-400 transition-colors duration-300">
+                Zoip
+              </a>
+            </h5>
+
+            <div class="mb-2 mt-1 text-sm text-gray-300">
+              <span>
+                Full-time
+                <span class="text-indigo-500">•</span>
+                On-site
+                <span class="text-indigo-500">•</span>
+                Iran
+              </span>
+            </div>
+
+            <p class="text-sm/relaxed text-gray-500">
+              Worked on backend development for multiple Laravel-based projects,
+              including hosting and payment platforms such as Cloud2 and Pay3.
+              Contributed to scalable APIs and backend service implementation.
+            </p>
+
+          </li>
+
+        </ul>
+
+      </div>
+    </div>
+  </div>
+
+  <div id="skills">
+    <div class="max-w-[1200px] mx-auto py-16 md:py-28 px-4 xl:px-0">
+
+      <h2 class="text-5xl dancing-script-bold mb-12 text-center md:text-start">
+        Skills
+      </h2>
+
+      <div class="flex flex-col md:flex-row gap-6">
+
+        <div class="flex-1 bg-[#171b22] border border-[#272c36] rounded-2xl p-6">
+
+          <h3 class="text-xl manrope-semi-bold  text-gray-500 mb-6">
+            Backend
+          </h3>
+
+          <div class="grid grid-cols-2 md:grid-cols-1 lg:grid-cols-2 gap-4">
+
+            <div
+              class="group rounded-xl border border-[#272c36] bg-[#1d2430] p-5 flex flex-col items-center justify-center transition-all duration-300 hover:border-indigo-500">
+
+              <img src="images/icons/php.svg" alt="PHP" class="size-12" />
+
+              <span class="mt-4 text-sm text-gray-300 group-hover:text-white">
+                PHP
+              </span>
+
+            </div>
+
+            <div
+              class="group rounded-xl border border-[#272c36] bg-[#1d2430] p-5 flex flex-col items-center justify-center transition-all duration-300 hover:border-indigo-500">
+
+              <img src="images/icons/laravel.svg" alt="Laravel" class="size-12" />
+
+              <span class="mt-4 text-sm text-gray-300 group-hover:text-white">
+                Laravel
+              </span>
+
+            </div>
+
+            <div
+              class="group rounded-xl border border-[#272c36] bg-[#1d2430] p-5 flex flex-col items-center justify-center transition-all duration-300 hover:border-indigo-500">
+
+              <img src="images/icons/phpunit.svg" alt="PHPUnit" class="size-12" />
+
+              <span class="mt-4 text-sm text-gray-300 group-hover:text-white">
+                PHPUnit
+              </span>
+
+            </div>
+
+            <div
+              class="group rounded-xl border border-[#272c36] bg-[#1d2430] p-5 flex flex-col items-center justify-center transition-all duration-300 hover:border-indigo-500">
+
+              <img src="images/icons/api.svg" alt="REST API" class="size-12" />
+
+              <span class="mt-4 text-sm text-gray-300 group-hover:text-white">
+                REST API
+              </span>
+
+            </div>
+
+          </div>
+        </div>
+
+        <div class="flex-1 bg-[#171b22] border border-[#272c36] rounded-2xl p-6">
+
+          <h3 class="text-xl manrope-semi-bold text-gray-500 mb-6">
+            Database
+          </h3>
+
+          <div class="grid grid-cols-2 md:grid-cols-1 lg:grid-cols-2 gap-4">
+
+            <div
+              class="group rounded-xl border border-[#272c36] bg-[#1d2430] p-5 flex flex-col items-center justify-center transition-all duration-300 hover:border-indigo-500">
+
+              <img src="images/icons/mysql.svg" alt="MySQL" class="size-12" />
+
+              <span class="mt-4 text-sm text-gray-300 group-hover:text-white">
+                MySQL
+              </span>
+
+            </div>
+
+            <div
+              class="group rounded-xl border border-[#272c36] bg-[#1d2430] p-5 flex flex-col items-center justify-center transition-all duration-300 hover:border-indigo-500">
+
+              <img src="images/icons/mariadb.svg" alt="MariaDB" class="size-12" />
+
+              <span class="mt-4 text-sm text-gray-300 group-hover:text-white">
+                MariaDB
+              </span>
+
+            </div>
+
+            <div
+              class="group rounded-xl border border-[#272c36] bg-[#1d2430] p-5 flex flex-col items-center justify-center transition-all duration-300 hover:border-indigo-500">
+
+              <img src="images/icons/sqlite.svg" alt="SQLite" class="size-12" />
+
+              <span class="mt-4 text-sm text-gray-300 group-hover:text-white">
+                SQLite
+              </span>
+
+            </div>
+
+            <div
+              class="group rounded-xl border border-[#272c36] bg-[#1d2430] p-5 flex flex-col items-center justify-center transition-all duration-300 hover:border-indigo-500">
+
+              <img src="images/icons/postgresql.svg" alt="PostgreSQL" class="size-12" />
+
+              <span class="mt-4 text-sm text-gray-300 group-hover:text-white">
+                PostgreSQL
+              </span>
+
+            </div>
+
+          </div>
+        </div>
+
+        <div class="flex-1 bg-[#171b22] border border-[#272c36] rounded-2xl p-6">
+
+          <h3 class="text-xl manrope-semi-bold text-gray-500 mb-6">
+            Tools & Other
+          </h3>
+
+          <div class="grid grid-cols-2 md:grid-cols-1 lg:grid-cols-2 gap-4">
+
+            <div
+              class="group rounded-xl border border-[#272c36] bg-[#1d2430] p-5 flex flex-col items-center justify-center transition-all duration-300 hover:border-indigo-500">
+
+              <img src="images/icons/docker.svg" alt="Docker" class="size-12" />
+
+              <span class="mt-4 text-sm text-gray-300 group-hover:text-white">
+                Docker
+              </span>
+
+            </div>
+
+            <div
+              class="group rounded-xl border border-[#272c36] bg-[#1d2430] p-5 flex flex-col items-center justify-center transition-all duration-300 hover:border-indigo-500">
+
+              <img src="images/icons/git.svg" alt="Git" class="size-12" />
+
+              <span class="mt-4 text-sm text-gray-300 group-hover:text-white">
+                Git
+              </span>
+
+            </div>
+
+            <div
+              class="group rounded-xl border border-[#272c36] bg-[#1d2430] p-5 flex flex-col items-center justify-center transition-all duration-300 hover:border-indigo-500">
+
+              <img src="images/icons/composer.svg" alt="Composer" class="size-12" />
+
+              <span class="mt-4 text-sm text-gray-300 group-hover:text-white">
+                Composer
+              </span>
+
+            </div>
+
+            <div
+              class="group rounded-xl border border-[#272c36] bg-[#1d2430] p-5 flex flex-col items-center justify-center transition-all duration-300 hover:border-indigo-500">
+
+              <img src="images/icons/linux.svg" alt="Linux" class="size-12" />
+
+              <span class="mt-4 text-sm text-gray-300 group-hover:text-white">
+                Linux
+              </span>
+
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <footer class="bg-[#171b22] border-t border-[#272c36]">
+    <div class="max-w-[1200px] mx-auto px-4 xl:px-0 py-6 flex flex-col md:flex-row items-center justify-between gap-6">
+
+      <div class="text-sm text-gray-400 text-center md:text-left">
+        Licensed under MIT
+      </div>
+
+      <div class="flex items-center gap-3">
+
+        <a href="mailto:amirdev1024@gmail.com"
+          class="group rounded-xl border border-[#272c36] bg-[#1d2430] p-3 transition-all duration-300 hover:border-indigo-500 hover:bg-indigo-500/10">
+
+          <svg class="size-5 fill-gray-400 transition-all duration-300 group-hover:fill-indigo-400" viewBox="0 0 48 48"
+            xmlns="http://www.w3.org/2000/svg">
+            <path
+              d="M44,7H4A2,2,0,0,0,2,9V39a2,2,0,0,0,2,2H44a2,2,0,0,0,2-2V9A2,2,0,0,0,44,7ZM42,37H6V16.7L23.5,27a.9.9,0,0,0,1,0L42,16.4ZM24.5,22.4a.9.9,0,0,1-1,0L6,11H42Z">
+            </path>
+          </svg>
+
+        </a>
+
+        <a href="tel:+989192535654"
+          class="group rounded-xl border border-[#272c36] bg-[#1d2430] p-3 transition-all duration-300 hover:border-indigo-500 hover:bg-indigo-500/10">
+
+          <svg class="size-5 fill-gray-400 transition-all duration-300 group-hover:fill-indigo-400" viewBox="0 0 48 48"
+            xmlns="http://www.w3.org/2000/svg">
+            <path d="M35,6V42H13V6H35m2-4H11A2,2,0,0,0,9,4V44a2,2,0,0,0,2,2H37a2,2,0,0,0,2-2V4a2,2,0,0,0-2-2Z">
+            </path>
+            <path d="M25,36H23a2,2,0,0,0,0,4h2a2,2,0,0,0,0-4Z">
+            </path>
+          </svg>
+
+        </a>
+
+        <a href="https://github.com/amirali-hossaini" target="_blank"
+          class="group rounded-xl border border-[#272c36] bg-[#1d2430] p-3 transition-all duration-300 hover:border-indigo-500 hover:bg-indigo-500/10">
+
+          <svg class="size-5 fill-gray-400 transition-all duration-300 group-hover:fill-indigo-400" viewBox="0 0 48 48"
+            xmlns="http://www.w3.org/2000/svg">
+            <path
+              d="M24,1.9a21.6,21.6,0,0,0-6.8,42.2c1,.2,1.8-.9,1.8-1.8V39.4c-6,1.3-7.9-2.9-7.9-2.9a6.5,6.5,0,0,0-2.2-3.2C6.9,31.9,9,32,9,32a4.3,4.3,0,0,1,3.3,2c1.7,2.9,5.5,2.6,6.7,2.1a5.4,5.4,0,0,1,.5-2.9C12.7,32,9,28,9,22.6A10.7,10.7,0,0,1,11.9,15a6.2,6.2,0,0,1,.3-6.4,8.9,8.9,0,0,1,6.4,2.9,15.1,15.1,0,0,1,5.4-.8,17.1,17.1,0,0,1,5.4.7,9,9,0,0,1,6.4-2.8,6.5,6.5,0,0,1,.4,6.4A10.7,10.7,0,0,1,39,22.6C39,28,35.3,32,28.5,33.2a5.4,5.4,0,0,1,.5,2.9v6.2a1.8,1.8,0,0,0,1.9,1.8A21.7,21.7,0,0,0,24,1.9Z">
+            </path>
+          </svg>
+
+        </a>
+
+      </div>
+
+    </div>
+  </footer>
+
+</body>
+
+</html>
